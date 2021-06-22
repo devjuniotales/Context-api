@@ -1,0 +1,24 @@
+.container-dash {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-dash{
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+}
+.dash-button button {
+    height: 45px;
+    width: 120px;
+    margin: 15px;
+}
+.dash-button button:hover{
+    transition: 1s;
+
+}   
